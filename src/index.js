@@ -2,7 +2,12 @@ import React from "react";
 import ReactDom from "react-dom";
 
 const Home = () => {
-  return <h1>Trees</h1>;
+  return (
+    <div>
+      <h1>Trees</h1>
+      <h2>Ballarat Trees</h2>
+    </div>
+  );
 };
 
 const App = () => {
