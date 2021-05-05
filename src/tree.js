@@ -36,7 +36,7 @@ const RandomTree = () => {
         <img
           height="200"
           width="200"
-          alt="It's an image of a random tree from Ballarat"
+          alt="It's a random tree from Ballarat"
           src={randomTree}
         />
       )}
