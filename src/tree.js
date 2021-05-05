@@ -32,7 +32,14 @@ const RandomTree = () => {
   return (
     <div>
       <h6>It's a tree from Ballarat:</h6>
-      {randomTree && <img height="200" width="200" src={randomTree} />}
+      {randomTree && (
+        <img
+          height="200"
+          width="200"
+          alt="It's an image of a random tree from Ballarat"
+          src={randomTree}
+        />
+      )}
     </div>
   );
 };
