@@ -6,6 +6,8 @@ const Home = () => {
     <div>
       <h1>Trees</h1>
       <h2>Ballarat Trees</h2>
+
+      <div>Hang tight to learn about these trees.</div>
     </div>
   );
 };
